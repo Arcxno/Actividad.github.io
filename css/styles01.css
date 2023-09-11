@@ -1,0 +1,252 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: whitesmoke;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/369/790/non_2x/4k-uhd-3d-neon-light-illustration-background-free-photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+header {
+  height: 70px;
+}
+.wrapper {
+  width: 100%;
+  margin: 20px auto 20px auto;
+}
+.container {
+  width: 80%;
+  height: 900px;
+  margin: 20px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  height: 10px;
+  color: whitesmoke;
+  margin-top: 60px;
+  font-family: Courier New, Courier, 'monospace';
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px 8px rgba(244, 58, 58, 0.502);
+}
+nav, footer {
+  clear: both;
+  color: #ffffff;
+  height: 30px;
+  font-family: Courier New, Courier, 'monospace';
+  text-transform: uppercase; 
+  font-size: 15px;
+  letter-spacing: 2px; 
+  text-shadow: 4px 4px 8px rgba(244, 58, 58, 0.502);
+}
+nav ul {
+  margin: 0px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav li a:hover,
+nav li a.current {
+  color: whitesmoke;
+  
+}
+section.courses {
+  margin-top: 40px;
+  height: 100%;
+  width: 100%;
+}
+article {
+  text-align: center;
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+li {
+  list-style-image: url('../images/icon-plus.png');
+  line-height: 1.6em;
+}
+.tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-spacing: 0px;
+}
+th,
+td {
+  padding: 5px 30px 5px 10px;
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 0px;
+}
+th,
+td {
+  text-align: left;
+  background-color: #f2eeee;
+  border-top: 1px solid #f1f8fe;
+  border-bottom: 1px solid #cbd2d8;
+  border-right: 1px solid #cbd2d8;
+  color: black;
+}
+tr.head th {
+  color: #fff;
+  background-color: #90b4d6;
+  border-bottom: 2px solid #547ca0;
+  border-right: 1px solid #749abe;
+  border-top: 1px solid #90b4d6;
+  text-align: center;
+  text-shadow: -1px -1px 1px #666666;
+  letter-spacing: 0.15em;
+}
+
+tr.even td,
+tr.even th {
+  background-color: #c9c5c5;
+}
+tr.head th:first-child {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+}
+tr.head th:last-child {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+}
+fieldset {
+  width: 310px;
+  margin-top: 20px;
+  border: 1px solid #d6d6d6;
+  line-height: 1.6em;
+  box-shadow:4px 4px 9px rgba(244, 58, 58, 0.502);
+}
+legend {
+  font-style: italic;
+  color: #d6d6d6;
+  text-shadow: 4px 4px 8px rgba(244, 58, 58, 0.502);
+
+}
+input[type='text'] {
+  width: 120px;
+  border: 1px solid #d6d6d6;
+  padding: 2px;
+  outline: none;
+}
+input[type='text']:focus,
+input[type='text']:hover {
+  background-color: #d0e2f0;
+  border: 1px solid #999999;
+}
+input[type='submit'] {
+  border: 1px solid #006633;
+  background-color: #009966;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+input[type='submit']:hover {
+  border: 1px solid #006633;
+  background-color: #00cc33;
+  color: #ffffff;
+  cursor: pointer;
+}
+.title {
+  float: left;
+  width: 160px;
+  clear: left;
+}
+.submit {
+  width: 310px;
+  text-align: right;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 940px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
+}
+/*estilo para telefono*/
+@media only screen and (max-width:850px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .container {
+    width: 100%; 
+    height: auto; 
+    margin: 10px auto;
+  }
+
+  h1 {
+    font-size: 28px; 
+    margin-top: 30px;
+  }
+
+  nav, footer {
+    height: auto;
+  }
+
+  nav ul {
+    padding-left: 0; 
+    text-align: center; 
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  section.courses {
+    margin-top: 20px;
+    width: 100%;
+  }
+  aside {
+    width: 100%;
+    float: none; 
+    padding: 10px 0;
+    margin: 20px 0;
+  }
+  figure {
+    float: none;
+    width: 100%;
+    margin: 20px 0; 
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  input[type='text'] {
+    width: 100%;
+  }
+
+  input[type='submit'] {
+    width: 100%; 
+  }
+}

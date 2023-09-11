@@ -1,0 +1,248 @@
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+  display: block;
+}
+body {
+  color: whitesmoke;
+  background-color: #f9f8f6;
+  background-image: url(https://live.staticflickr.com/7066/13737399645_7136134571_h.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Georgia, Times, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+.wrapper {
+  width: 100%;
+  margin: 20px auto 20px auto;
+}
+.container {
+  width: 940px;
+  height: 1500px;
+  margin: 20px auto;
+  border: 2px solid rgb(104, 103, 103);
+  border-radius: 10px;
+  box-shadow:4px 4px 9px rgba(0, 140, 255, 0.502) ;
+  background-image: url(https://media.istockphoto.com/id/1448261589/es/foto/calle-oscura-asfalto-abstracto-fondo-azul-oscuro-escena-oscura-vac%C3%ADa-luz-de-ne%C3%B3n-focos-el-piso.jpg?s=612x612&w=0&k=20&c=7AP3H5FjpXZE5mFWQLbT3wytDemh5RAX_w0vExN3fbo=);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
+header {
+  height: 70px;
+}
+h1 {
+  text-align: center;
+  width: 100%;
+  height: 10px;
+  color: whitesmoke;
+  margin-top: 60px;
+  font-family: Courier New, Courier, 'monospace';
+  text-transform: uppercase; 
+  font-size: 40px;
+  letter-spacing: 2px; 
+  text-shadow: 4px 4px 8px rgba(0, 140, 255, 0.5);
+}
+nav, footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #000000;
+  height: 30px;
+  font-family: Courier New, Courier, 'monospace';
+  text-transform: uppercase; 
+  font-size: 15px;
+  letter-spacing: 2px; 
+  text-shadow: 4px 4px 8px rgba(0, 140, 255, 0.5);
+}
+nav ul {
+  margin: 0px;
+  background-color: #000000;
+  text-align: center;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+nav li a {
+  color: #ffffff;
+}
+nav li a:hover,
+nav li a.current {
+  color: #008cff80;
+}
+section.courses {
+  float: left;
+  height: 542px;
+  width: 659px;
+}
+aside.foon{
+  height: 542px;
+  width: 260px;
+}
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+hgroup {
+  margin-top: 40px;
+}
+figure {
+  float: left;
+  width: 290px;
+  height: 230px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+aside section a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+a {
+  color: #008cff80;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+h2 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+  font-family: Courier New, Courier, 'monospace';
+  text-transform: uppercase;
+  color: whitesmoke; 
+  font-size: 30px;
+  letter-spacing: 2px; 
+  text-shadow: 4px 4px 8px rgba(0, 140, 255, 0.5);
+}
+h3 {
+  margin: 0px 0px 10px 0px;
+  color: #008cff80;
+}
+aside h2 {
+  padding: 30px 0px 10px 0px;
+  color: whitesmoke;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 940px;
+  text-align: center;
+  margin-top: px;
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
+}
+input[type='text'] {
+  border: 1px solid #d6d6d6;
+  padding: 2px;
+  outline: none;
+}
+input[type='text']:focus,
+input[type='text']:hover {
+  background-color: #d0e2f0;
+  border: 1px solid #999999;
+}
+input[type='submit'] {
+  border: 1px solid #006633;
+  background-color: #009966;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+input[type='submit']:hover {
+  border: 1px solid #006633;
+  background-color: #00cc33;
+  color: #ffffff;
+  cursor: pointer;
+}
+/*estilo para telefono*/
+@media only screen and (max-width:850px) {
+  body {
+    font-size: 16px; 
+    padding: 20px; 
+  }
+  .container {
+    width: 100%; 
+    height: 3300px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  nav, footer {
+    height: auto;
+  }
+
+  nav ul {
+    padding-left: 0; 
+    text-align: center; 
+  }
+  nav li {
+    display: block;
+    margin: 0;
+  }
+  section.courses {
+    float: none; 
+    width: 100%; 
+  }
+  figure {
+    float: none;
+    width: 100%;
+    margin: 20px 0; 
+  }
+  figcaption {
+    text-align: center;
+  }
+  article{
+    width: 100%; 
+    float: none; 
+    padding: 0; 
+    margin: 20px 0;
+  }
+  aside {
+    width: 100%; 
+    float: none; 
+    padding: 10px 0; 
+    margin-top: 1800px; 
+  }
+  footer {
+    font-size: 14px; 
+    padding: 10px 0; 
+  }
+
+  input[type='text'] {
+    width: 100%; 
+  }
+
+  input[type='submit'] {
+    width: 100%;
+  }
+}
